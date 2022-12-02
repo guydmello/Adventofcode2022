@@ -11,4 +11,8 @@ new_list = [[int(x) for x in lst] for lst in lines]
 
 list_2 = [sum(l) for l in new_list]
 
-print(max(list_2))
+list2 = sorted(list_2)
+
+print(list2[-1])
+
+print(list2[-1] + list2[-2] + list2[-3])
