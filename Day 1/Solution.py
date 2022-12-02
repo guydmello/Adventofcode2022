@@ -1,3 +1,5 @@
+# find max sum of grouped numbers and then find top 3 sums added together
+
 with open("calories.txt", "r") as calories:
 	lines = calories.readlines()
 
