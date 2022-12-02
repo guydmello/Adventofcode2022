@@ -1,8 +1,7 @@
 with open("calories.txt", "r") as calories:
 	lines = calories.readlines()
-	# print(lines)
 
-lines = [s.strip('\n') for s in lines] # remove the 8 from the string borders
+lines = [s.strip('\n') for s in lines] 
 lines = [s.replace('\n', '') for s in lines]
 
 from itertools import groupby
